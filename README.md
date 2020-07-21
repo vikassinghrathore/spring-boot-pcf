@@ -1,4 +1,4 @@
-# PCF Crash Course for Java, Spring and Spring Boot Developers
+## PCF with Java, Spring and Spring Boot
 
 ## Deploy Spring Boot REST API, Full Stack Applications and Microservices to Pivotal Cloud Foundry (PCF) 
 
