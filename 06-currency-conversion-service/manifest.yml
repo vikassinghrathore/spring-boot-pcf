@@ -1,0 +1,20 @@
+applications:
+- name: currency-conversion-service
+  disk_quota: 1G
+  instances: 1
+  memory: 512MB
+  # https://github.com/cloudfoundry/java-buildpack/issues/663
+  env:
+    JAVA_OPTS: '-XX:ReservedCodeCacheSize=32M -XX:MaxDirectMemorySize=32M'
+    JBP_CONFIG_OPEN_JDK_JRE: '[memory_calculator: {stack_threads: 30}]'
+  path: target/currency-conversion-service.jar
+  timeout: 120
+  routes:
+  - route: currency-conversion-service-humble-grysbok-qg.cfapps.io
+  - route: currency-conversion-service-vikas-111.cfapps.io
+  buildpacks:
+  - https://github.com/cloudfoundry/java-buildpack.git
+  stack: cflinuxfs3
+  services:
+   - naming-server
+   - dev-config-server-test

@@ -1,0 +1,13 @@
+applications:
+- name: todo-web-application-h2
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  path: target/todo-web-application-h2.war
+  timeout: 120
+  routes:
+  - route: todo-web-application-h2-humble-grysbok-qg.cfapps.io
+  - route: todo-web-application-h2-vikas-111.cfapps.io
+  buildpacks:
+  - https://github.com/cloudfoundry/java-buildpack.git
+  stack: cflinuxfs3

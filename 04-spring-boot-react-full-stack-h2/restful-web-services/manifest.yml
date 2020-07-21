@@ -1,0 +1,12 @@
+applications:
+- name: rest-api-full-stack
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  path: /target/rest-api-full-stack.jar
+  timeout: 120
+  routes:
+  - route: rest-api-full-stack-vikas-101.cfapps.io
+  buildpacks:
+  - https://github.com/cloudfoundry/java-buildpack.git
+  stack: cflinuxfs3

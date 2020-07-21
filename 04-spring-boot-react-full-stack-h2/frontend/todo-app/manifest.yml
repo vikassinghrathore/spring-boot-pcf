@@ -1,0 +1,22 @@
+applications:
+applications:
+- name: rest-api-full-stack
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  path: restful-web-services/target/rest-api-full-stack.jar
+  timeout: 120
+  routes:
+  - route: rest-api-full-stack-vikas-101.cfapps.io
+  buildpacks:
+  - https://github.com/cloudfoundry/java-buildpack.git
+  stack: cflinuxfs3
+- name: todo-app-react-frontend
+  instances: 1
+  memory: 64M
+  path: frontend/todo-app/build/
+  timeout: 120
+  routes:
+  - route: rest-api-full-stack-vikas-101.cfapps.io
+  buildpacks:
+  - https://github.com/cloudfoundry/staticfile-buildpack

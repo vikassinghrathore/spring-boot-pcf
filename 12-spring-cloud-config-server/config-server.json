@@ -1,0 +1,7 @@
+{  
+  "git":{  
+    "uri":"https://github.com/vikassinghrathore/dev-config-server-test.git",
+    "label":"master",
+    "searchPaths":"dev"
+  }
+}
