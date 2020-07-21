@@ -1,27 +1,8 @@
 # PCF Crash Course for Java, Spring and Spring Boot Developers
 
-[![Image](https://www.springboottutorial.com/images/Course-pivotal-cloud-foundry-pcf-deploying-spring-boot-apps.png "Deploying Spring Boot Microservices to PCF Pivotal Cloud Foundry")](https://www.udemy.com/course/learn-pivotal-cloud-foundry-pcf-deploying-spring-boot-apps/)
-
 ## Deploy Spring Boot REST API, Full Stack Applications and Microservices to Pivotal Cloud Foundry (PCF) 
 
-Learn PCF Fundamentals? Yes.   Deploy REST API to PCF? Yes.     Deploy Full Stack to PCF? Yes. Of Course. Hands-on? Of course.
-
-Do you have ZERO experience with Pivotal Cloud Foundry (PCF)? No Problem.
-
-Do you want to learn to Deploy Java Spring Boot Applications and Microservices to Pivotal Cloud Foundry (PCF) with an easy to learn, step by step approach?
-
-Are you ready to learn about the cloud with Pivotal Cloud Foundry (PCF) and take the next step in your programming career?
-
-Look No Further!
-
 ## Getting Started
-- [Video - Docker in 5 Steps](https://youtu.be/Rt5G5Gj7RP0)
-- [Video - Spring in 10 Steps](https://www.youtube.com/watch?v=edgZo2g-LTM)
-- [Video - Spring Boot in 10 Steps](https://www.youtube.com/watch?v=pcdpk3Yd1EA)
-- [Video - JPA/Hibernate in 10 Steps](https://www.youtube.com/watch?v=MaI0_XdpdP8)
-- [Video - React in 10 Steps](https://www.youtube.com/watch?v=SWXuXhZkNQc&t=110s)
-- [Article - Getting started with React and Spring Boot - Full Stack](https://www.springboottutorial.com/spring-boot-react-full-stack-crud-maven-application)
-- [Article - Using Spring Security and JWT with React and Spring Boot](https://www.springboottutorial.com/spring-boot-react-full-stack-with-spring-security-basic-and-jwt-authentication)
 
 #### Required Tools
 
@@ -34,9 +15,6 @@ Look No Further!
 - ELB CLI
 
 #### Installing Guides
-
-- [Playlist - Installing Java, Eclipse & Embedded Maven](https://www.youtube.com/playlist?list=PLBBog2r6uMCSmMVTW_QmDLyASBvovyAO3)
-- [Playlist - Installing Node Js (npm) & Visual Studio Code](https://www.youtube.com/playlist?list=PLBBog2r6uMCQN4X3Aa_jM9qVjgMCHMWx6)
 
 #### Troubleshooting Installations
 - Node JS and NPM 
@@ -64,7 +42,7 @@ In this course, we deploy a variety of Spring Boot Applications to the Cloud:
 - CCS and CES Microservices
 - Route Services
 
-This course would be a perfect first step as an introduction to PCF and the Cloud.
+First step as an introduction to PCF and the Cloud.
 
 You will be using deploying a variety of projects to Pivotal Cloud Foundry (PCF) . These projects are created with  React (Frontend Framework), Spring Boot (REST API Framework), Spring (Dependency Management), Spring Security (Authentication and Authorization - Basic and JWT), BootStrap (Styling Pages), Maven (dependencies management), Node (npm), Visual Studio Code (TypeScript IDE), Eclipse (Java IDE) and Tomcat Embedded Web Server. We will help you set up each one of these.
 
@@ -76,14 +54,13 @@ You will be using deploying a variety of projects to Pivotal Cloud Foundry (PCF)
 - You will learn how to Auto Scale applications based on load as well as deploy multiple instances behind a load balancer using Pivotal Cloud Foundry.
 
 ## Requirements
-- You have an attitude to learn while having fun :)
-- You have some programming experience with Java, Spring and Spring Boot
+- You have some programming experience with Java,Jpa,Hibernate, Spring and Spring Boot
 - You DO NOT need to have any experience with Pivotal Cloud Foundry
-- We will help you install Eclipse, Visual Studio Code, Git client, Docker Desktop and Node JS (for npm)
+- install Eclipse, Visual Studio Code, Git client, Docker Desktop and Node JS (for npm)
 
 ## Who is this course for
 - You are a Java Spring Boot developer getting started with the Cloud
-- You want to get your Java applications deployed to PCF (Pivotal Cloud Foundry) Quickly
+- You want to get your Java applications deployed to PCF (Pivotal Cloud Foundry)
 - You are a Java Developer and You are curious about PCF and the Cloud
 - You want to learn to deploy a Java Spring Boot full stack application to PCF (Pivotal Cloud Foundry) 
 - You want to learn to deploy Spring Boot Microservices with Service Registry, Config Server, Distributed Tracing and Load Balancing to PCF (Pivotal Cloud Foundry) 
