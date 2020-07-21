@@ -1,4 +1,4 @@
-# Todo Web Application using Spring Boot and H2 In memory database
+## Todo Web Application using Spring Boot and H2 In memory database
 
 Run com.springboot.web.SpringBootFirstWebApplication as a Java Application.
 
