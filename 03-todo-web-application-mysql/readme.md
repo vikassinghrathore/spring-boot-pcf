@@ -1,4 +1,4 @@
-# Todo Web Application using Spring Boot and MySQL as Database
+## Todo Web Application using Spring Boot and MySQL as Database
 
 Run com.springboot.web.SpringBootFirstWebApplication as a Java Application.
 
@@ -46,8 +46,8 @@ spring.jpa.hibernate.ddl-auto=update
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL55Dialect
 spring.datasource.url=jdbc:mysql://localhost:3306/todos
-spring.datasource.username=todos-user
-spring.datasource.password=dummytodos
+spring.datasource.username=root
+spring.datasource.password=root
 ```
 
 #### src/test/resources/application.properties
@@ -84,7 +84,7 @@ docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=tod
 
 
 ```
-Rangas-MacBook-Air:projects rangakaranam$ mysqlsh
+vikas$ mysqlsh
 MySQL Shell 8.0.15
 Copyright (c) 2016, 2019, Oracle and/or its affiliates. All rights reserved.
 Oracle is a registered trademark of Oracle Corporation and/or its affiliates.
@@ -148,8 +148,8 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL55Dialect
 spring.jpa.hibernate.ddl-auto=update
 
 spring.datasource.url=jdbc:mysql://localhost:3306/todos
-spring.datasource.username=todos-user
-spring.datasource.password=dummytodos
+spring.datasource.username=root
+spring.datasource.password=root
 
 #spring.datasource.url=${vcap.services.todo-database.credentials.jdbcUrl}
 #spring.datasource.username=${vcap.services.todo-database.credentials.username:todos-user}
@@ -195,7 +195,7 @@ applications:
   path: target/todo-web-application-mysql.war
   timeout: 120
   routes:
-  - route: todo-web-application-mysql-ranga-101.cfapps.io
+  - route: todo-web-application-mysql-vikas-101.cfapps.io
   buildpacks:
   - https://github.com/cloudfoundry/java-buildpack.git
   stack: cflinuxfs3
