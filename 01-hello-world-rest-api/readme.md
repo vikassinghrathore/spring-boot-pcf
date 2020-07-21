@@ -105,19 +105,19 @@ cf push
 
 ### Upload Source (Package)
 ```
-Pushing from manifest to org currency-services / space development as ranga@in28minutes.com...
-Using manifest file /in28Minutes/git/pcf-crash-course-with-spring-boot/01-hello-world-rest-api/manifest.yml
+Pushing from manifest to org currency-services / space development as vikaskanvika@gmail.com...
+Using manifest file /vikas/git/spring-boot-pcf/01-hello-world-rest-api/manifest.yml
 Getting app info...
 Updating app with these attributes...
   name:                hello-world-rest-api
-  path:                /in28Minutes/git/pcf-crash-course-with-spring-boot/01-hello-world-rest-api/target/hello-world-rest-api.jar
+  path:                /vikas/git/spring-boot-pcf/01-hello-world-rest-api/target/hello-world-rest-api.jar
   disk quota:          1G
   health check type:   port
   instances:           1
   memory:              1G
   stack:               cflinuxfs3
   routes:
-    hello-world-rest-api-ranga-101.cfapps.io
+    hello-world-rest-api-vikas-101.cfapps.io
     hello-world-rest-api-sweet-panda.cfapps.io
 
 Updating app hello-world-rest-api...
@@ -188,7 +188,7 @@ Waiting for app to start...
 
 name:              hello-world-rest-api
 requested state:   started
-routes:            hello-world-rest-api-sweet-panda.cfapps.io, hello-world-rest-api-ranga-101.cfapps.io
+routes:            hello-world-rest-api-sweet-panda.cfapps.io, hello-world-rest-api-vikas-101.cfapps.io
 last uploaded:     Tue 03 Sep 16:28:50 IST 2019
 stack:             cflinuxfs3
 buildpacks:        client-certificate-mapper=1.8.0_RELEASE container-security-provider=1.16.0_RELEASE
